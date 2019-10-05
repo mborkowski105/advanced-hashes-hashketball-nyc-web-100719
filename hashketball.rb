@@ -39,24 +39,26 @@ def game_hash
           :slam_dunks => 15
         },
         {
-          :number => 0,
-          :shoe => 0,
-          :points => 0,
-          :rebounds => 0,
-          :assists => 0,
-          :steals => 0,
-          :blocks => 0,
-          :slam_dunks => 0
+          :name => "Mason Plumlee",
+          :number => 1,
+          :shoe => 19,
+          :points => 26,
+          :rebounds => 11,
+          :assists => 6,
+          :steals => 3,
+          :blocks => 8,
+          :slam_dunks => 5
         },
         {
-          :number => 0,
-          :shoe => 0,
-          :points => 0,
-          :rebounds => 0,
-          :assists => 0,
-          :steals => 0,
-          :blocks => 0,
-          :slam_dunks => 0
+          :name => "Jason Terry"
+          :number => 31,
+          :shoe => 15,
+          :points => 19,
+          :rebounds => 2,
+          :assists => 2,
+          :steals => 4,
+          :blocks => 11,
+          :slam_dunks => 1
         }
       ]
     },
@@ -65,26 +67,29 @@ def game_hash
       :colors => [],
       :players => [
         {
-          :number => 0,
-          :shoe => 0,
-          :points => 0,
-          :rebounds => 0,
-          :assists => 0,
-          :steals => 0,
-          :blocks => 0,
-          :slam_dunks => 0
+          :name => "Jeff Adrien",
+          :number => 4,
+          :shoe => 18,
+          :points => 10,
+          :rebounds => 1,
+          :assists => 1,
+          :steals => 2,
+          :blocks => 7,
+          :slam_dunks => 2
         },
         {
+          :name => "Bismack Biyombo",
           :number => 0,
-          :shoe => 0,
-          :points => 0,
-          :rebounds => 0,
-          :assists => 0,
-          :steals => 0,
-          :blocks => 0,
-          :slam_dunks => 0
+          :shoe => 16,
+          :points => 12,
+          :rebounds => 4,
+          :assists => 7,
+          :steals => 22,
+          :blocks => 15,
+          :slam_dunks => 10
         },
         {
+          
           :number => 0,
           :shoe => 0,
           :points => 0,
