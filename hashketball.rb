@@ -197,4 +197,9 @@ def player_numbers(team_name)
   return nums
 end
 
-
+def player_stats(players_name)
+  local_game_hash = game_hash()
+  new_hash = {}
+  
+  local_game_hash
+end
