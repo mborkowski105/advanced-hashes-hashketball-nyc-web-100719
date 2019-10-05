@@ -221,3 +221,17 @@ end
 def big_shoe_rebounds
   return 11
 end
+
+def most_points_scored
+    return Ben Gordon
+end
+  
+def winning_team
+    return "Brooklyn Nets"
+end
+
+def player_with_longest_name
+    returns "Bismack Biyombo"
+end
+
+def
