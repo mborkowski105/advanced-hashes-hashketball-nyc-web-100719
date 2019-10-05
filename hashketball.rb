@@ -28,7 +28,7 @@ def game_hash
           :slam_dunks => 7
         },
         {
-          :name => "Brook Lopez"
+          :name => "Brook Lopez",
           :number => 11,
           :shoe => 17,
           :points => 17,
@@ -50,7 +50,7 @@ def game_hash
           :slam_dunks => 5
         },
         {
-          :name => "Jason Terry"
+          :name => "Jason Terry",
           :number => 31,
           :shoe => 15,
           :points => 19,
@@ -100,7 +100,7 @@ def game_hash
           :slam_dunks => 5
         },
         {
-          :name => "Ben Gordon,"
+          :name => "Ben Gordon",
           :number => 8,
           :shoe => 15,
           :points => 33,
