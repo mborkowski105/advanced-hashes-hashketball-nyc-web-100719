@@ -160,7 +160,13 @@ def shoe_size(player_name)
   
 end
 
-
+def team_colors(team_name)
+  local_game_hash = game_hash()
+    
+  local_game_hash.each do |place, team|
+    
+  end
+end
 
 
 
