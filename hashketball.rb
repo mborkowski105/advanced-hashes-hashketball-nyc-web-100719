@@ -17,7 +17,7 @@ def game_hash
           :slam_dunks => 1
         },
         {
-          name => "Reggie Evans",
+          :name => "Reggie Evans",
           :number => 30,
           :shoe => 14,
           :points => 12,
@@ -28,7 +28,7 @@ def game_hash
           :slam_dunks => 7
         },
         {
-          name => "Brook Lopez",
+          :name => "Brook Lopez",
           :number => 11,
           :shoe => 17,
           :points => 17,
@@ -39,7 +39,7 @@ def game_hash
           :slam_dunks => 15
         },
         {
-          name => "Mason Plumlee",
+          :name => "Mason Plumlee",
           :number => 1,
           :shoe => 19,
           :points => 26,
@@ -50,7 +50,7 @@ def game_hash
           :slam_dunks => 5
         },
         {
-          name => "Jason Terry",
+          :name => "Jason Terry",
           :number => 31,
           :shoe => 15,
           :points => 19,
@@ -67,7 +67,7 @@ def game_hash
       :colors => ["Turquoise", "Purple"],
       :players => [
         {
-          name => "Jeff Adrien",
+          :name => "Jeff Adrien",
           :number => 4,
           :shoe => 18,
           :points => 10,
@@ -78,7 +78,7 @@ def game_hash
           :slam_dunks => 2
         },
         {
-          name => "Bismack Biyombo",
+          :name => "Bismack Biyombo",
           :number => 0,
           :shoe => 16,
           :points => 12,
@@ -89,7 +89,7 @@ def game_hash
           :slam_dunks => 10
         },
         {
-          name => "DeSagna Diop",
+          :name => "DeSagna Diop",
           :number => 2,
           :shoe => 14,
           :points => 24,
@@ -100,7 +100,7 @@ def game_hash
           :slam_dunks => 5
         },
         {
-          name => "Ben Gordon",
+          :name => "Ben Gordon",
           :number => 8,
           :shoe => 15,
           :points => 33,
@@ -111,7 +111,7 @@ def game_hash
           :slam_dunks => 0
         },
         {
-          name => "Kemba Walker",
+          :name => "Kemba Walker",
           :number => 33,
           :shoe => 15,
           :points => 6,
@@ -126,9 +126,23 @@ def game_hash
   }
 end
 
-
-
-
+def num_points_scored(player)
+  local_game_hash = game_hash()
+  
+  if (player == "Alan Anderson" || "Reggie Evans" || "Brook Lopez" || "Mason Plumlee" || "Jason Terry")
+    local_game_hash[:home][:players].each do |p|
+      if (player == p[:name])
+        return p[:points]
+      end
+    end
+  else
+    local_game_hash[:away][:players].each do |player|
+      if (player == p[:name])
+        return p[:points]
+      end
+    end
+  end
+end
 
 
 
