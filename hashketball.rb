@@ -136,7 +136,7 @@ def num_points_scored(player)
       end
     end
   else
-    local_game_hash[:away][:players].each_with_index do |player|
+    local_game_hash[:away][:players].each do |p|
       if (player == p[:name])
         return p[:points]
       end
