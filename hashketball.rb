@@ -127,7 +127,7 @@ def game_hash
 end
 
 def num_points_scored(player)
-  game_hash = game_hash()
+  local_game_hash = game_hash()
   
   if (player == "Alan Anderson" || "Reggie Evans" || "Brook Lopez" || "Mason Plumlee" || "Jason Terry")
     game_hash[:home][:players].each do |p|
