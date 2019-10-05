@@ -2,8 +2,8 @@
 def game_hash
   return {
     :home => {
-      :team_name => "Brooklyn Nets",
-      :colors => ["Black", "White"],
+      :team_name => "",
+      :colors => [],
       :players => [
         {
           :number => 0,
@@ -116,7 +116,7 @@ def game_hash
   }
 end
 
-def num_points_scored(player)
+
 
 
 
