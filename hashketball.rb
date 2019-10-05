@@ -172,7 +172,10 @@ end
 
 def team_names
   local_game_hash = game_hash()
+  
+  local_game_hash.do |place, team|
     
+  end
 end
 
 
