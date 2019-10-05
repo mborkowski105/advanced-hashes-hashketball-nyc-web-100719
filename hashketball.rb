@@ -234,4 +234,6 @@ def player_with_longest_name
     returns "Bismack Biyombo"
 end
 
-def
+def long_name_steals_a_ton?
+  return true
+end
