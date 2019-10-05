@@ -170,5 +170,9 @@ def team_colors(team_name)
   end
 end
 
+def team_names
+  local_game_hash = game_hash()
+    
+end
 
 
