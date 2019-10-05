@@ -201,5 +201,16 @@ def player_stats(players_name)
   local_game_hash = game_hash()
   new_hash = {}
   
-  local_game_hash
+  local_game_hash.each do |place, team|
+    team.each do |attributes, data|
+      if (attributes == :players)
+        data.each do |player|
+          if player[:player_name] == players_name
+            new_hash = player.delete_if do |k, v|
+              k == :player_name
+          end
+        end
+      end
+    end
+  end
 end
