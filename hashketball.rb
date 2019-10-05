@@ -6,7 +6,7 @@ def game_hash
       :colors => ["Black", "White"],
       :players => [
         {
-          name => "Alan Anderson",
+          :name => "Alan Anderson",
           :number => 0,
           :shoe => 16,
           :points => 22,
@@ -131,13 +131,13 @@ def num_points_scored(player)
   
   if (player == "Alan Anderson" || "Reggie Evans" || "Brook Lopez" || "Mason Plumlee" || "Jason Terry")
     game_hash[:home][:players].each do |p|
-      if (player == p[name])
+      if (player == p[:name])
         return p[:points]
       end
     end
   else
     game_hash[:away][:players].each do |player|
-      if (player == p[name])
+      if (player == p[:name])
         return p[:points]
       end
     end
